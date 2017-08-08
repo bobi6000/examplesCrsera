@@ -1,7 +1,11 @@
 #include <stdio.h>
 #define MNOZ(x) x*x
 #define WART 36
-   
+
+// define PLATFORM1 to use 
+// or define in option -D<MACRO>  my example: gcc -DPLATFORM2 -o main.out main.c
+// end comment define below
+#define PLATFORM1   
 
 int main (void){
 int x=0U,y=0U,z=0U;
